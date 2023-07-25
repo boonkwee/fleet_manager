@@ -1,0 +1,31 @@
+Requestors raise request for transport arrangements.
+Requestors can be Nursing Homes, Public Health Institutes (PHI), other entities, etc.
+transport arrangements is sent to TPT planners. transport arrangements can have high priority, e.g. dialysis patients.
+
+Request template:
+1. Vehicle type
+2. pick up location
+3. drop off location
+4. scheduled datetime
+5. number of patients
+
+TPT planners value-add by including remarks for transport units (e.g. van for wheelchair bound patients)
+
+System will have process - progress view for each transport arrangement case.
+
+Transport unit will indicate arrive, in conveyance, arrived status.
+
+
+workarounds : group transport units by cluster around geo-spatial towns
+good to have: geospatial view of resources on map, nearest resources to attend to cases.
+
+Case to prove:
+
+1. Currently, the request raised goes to the transport planners, and in turn, the planners value
+add by including remarks for transport vendors. then the orders for the vendors is sent via Whatsapp.
+There is limited tracking available as orders sent via whatsapp is unstructured. And finding information subsequently
+in the whatsapp message log is limited only to text search provided by Whatsapp. This is SLOW and not data friendly.
+
+2. Vendors receives payment for providing the transport services. There is a budget secured for the service and it is
+very difficult to monitor the utilization of the budget.
+
